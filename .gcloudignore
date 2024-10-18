@@ -1,0 +1,5 @@
+# Files to ignore when Google Cloud is building the Docker container
+.git
+.github
+#!include:.gitignore
+!.env.local
